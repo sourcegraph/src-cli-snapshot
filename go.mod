@@ -4,6 +4,8 @@ go 1.22
 
 toolchain go1.22.5
 
+replace github.com/sourcegraph/sourcegraph/lib => github.com/sourcegraph/sourcegraph-public-snapshot/lib v0.0.0-20240709083501-1af563b61442
+
 require (
 	cloud.google.com/go/storage v1.30.1
 	github.com/atotto/clipboard v0.1.4
