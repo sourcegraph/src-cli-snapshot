@@ -2,6 +2,8 @@ module github.com/sourcegraph/src-cli
 
 go 1.18
 
+replace github.com/sourcegraph/sourcegraph/lib => github.com/sourcegraph/sourcegraph-public-snapshot/lib v0.0.0-20230316093010-26299ec302d0
+
 require (
 	cloud.google.com/go/storage v1.28.0
 	github.com/aws/aws-sdk-go-v2/config v1.18.13
